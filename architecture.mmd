@@ -1,0 +1,16 @@
+flowchart TB
+  TEN["OCI Tenancy and Governance<br/>Regions • Compartments • IAM Policies • Tags • Quotas"]
+  SEC["Identity and Security<br/>Identity Domains • Dynamic Groups • Principals • Vault • Cloud Guard • Audit"]
+  NET["Connectivity and Edge<br/>VCN • Subnets • DRG • Gateways • FastConnect/VPN • LB/WAF/DNS"]
+  APP["Application and Compute<br/>Compute • Instance Pools • OKE • OCI Functions • OCI DevOps"]
+  DATA["Data and Integration<br/>Object/Block/File • Autonomous DB • Exadata • HeatWave • Streaming/Events"]
+  OPS["Operations<br/>Monitoring • Alarms • Logging • Cloud Advisor • Budgets"]
+  DR["Delivery and Recovery<br/>Resource Manager • Terraform • Backup • Cross-Region DR"]
+  TEN --> SEC
+  SEC --> NET
+  SEC --> APP
+  SEC --> DATA
+  NET --> OPS
+  APP --> DR
+  DATA --> DR
+  OPS --> DR
