@@ -53,7 +53,7 @@ Use checkboxes as a visible checklist and select a topic to open its detailed gu
 - [ ] [Cloud Advisor](A-cloud-foundation-landing-zones/cloud-advisor/README.md)
 - [ ] [Support Requests & Service Limits](A-cloud-foundation-landing-zones/support-requests-service-limits/README.md)
 
-[Open category tracker](A-cloud-foundation-landing-zones/README.md) · [SVG]( A-cloud-foundation-landing-zones/architecture.svg) · [editable draw.io](A-cloud-foundation-landing-zones/architecture.drawio)
+[Open category tracker](A-cloud-foundation-landing-zones/README.md) · [SVG](A-cloud-foundation-landing-zones/architecture.svg) · [editable draw.io](A-cloud-foundation-landing-zones/architecture.drawio)
 
 </details>
 
@@ -69,7 +69,7 @@ Use checkboxes as a visible checklist and select a topic to open its detailed gu
 - [ ] [Resource Principals](B-identity-access-management/resource-principals/README.md)
 - [ ] [Workload Identity & Secrets Access](B-identity-access-management/workload-identity-secrets-access/README.md)
 
-[Open category tracker](B-identity-access-management/README.md) · [SVG]( B-identity-access-management/architecture.svg) · [editable draw.io](B-identity-access-management/architecture.drawio)
+[Open category tracker](B-identity-access-management/README.md) · [SVG](B-identity-access-management/architecture.svg) · [editable draw.io](B-identity-access-management/architecture.drawio)
 
 </details>
 
@@ -89,7 +89,7 @@ Use checkboxes as a visible checklist and select a topic to open its detailed gu
 - [ ] [FastConnect](C-networking-private-connectivity/fastconnect/README.md)
 - [ ] [Site-to-Site VPN](C-networking-private-connectivity/site-to-site-vpn/README.md)
 
-[Open category tracker](C-networking-private-connectivity/README.md) · [SVG]( C-networking-private-connectivity/architecture.svg) · [editable draw.io](C-networking-private-connectivity/architecture.drawio)
+[Open category tracker](C-networking-private-connectivity/README.md) · [SVG](C-networking-private-connectivity/architecture.svg) · [editable draw.io](C-networking-private-connectivity/architecture.drawio)
 
 </details>
 
@@ -105,7 +105,7 @@ Use checkboxes as a visible checklist and select a topic to open its detailed gu
 - [ ] [Health Checks & Backend Sets](D-traffic-management-delivery/health-checks-backend-sets/README.md)
 - [ ] [OCI API Gateway](D-traffic-management-delivery/oci-api-gateway/README.md)
 
-[Open category tracker](D-traffic-management-delivery/README.md) · [SVG]( D-traffic-management-delivery/architecture.svg) · [editable draw.io](D-traffic-management-delivery/architecture.drawio)
+[Open category tracker](D-traffic-management-delivery/README.md) · [SVG](D-traffic-management-delivery/architecture.svg) · [editable draw.io](D-traffic-management-delivery/architecture.drawio)
 
 </details>
 
@@ -122,14 +122,14 @@ Use checkboxes as a visible checklist and select a topic to open its detailed gu
 - [ ] [API Gateway](E-compute-application-hosting/api-gateway/README.md)
 - [ ] [Bastion Service](E-compute-application-hosting/bastion-service/README.md)
 
-[Open category tracker](E-compute-application-hosting/README.md) · [SVG]( E-compute-application-hosting/architecture.svg) · [editable draw.io](E-compute-application-hosting/architecture.drawio)
+[Open category tracker](E-compute-application-hosting/README.md) · [SVG](E-compute-application-hosting/architecture.svg) · [editable draw.io](E-compute-application-hosting/architecture.drawio)
 
 </details>
 
 <details>
 <summary><strong>F. Containers & Kubernetes</strong> — 7 topics</summary>
 
-- [ ] [Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE)](F-containers-kubernetes/oracle-cloud-infrastructure-container-engine-for-kubernetes-oke/README.md)
+- [ ] [Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE)](F-containers-kubernetes/oci-container-engine-for-kubernetes-oke/README.md)
 - [ ] [OKE Cluster Design](F-containers-kubernetes/oke-cluster-design/README.md)
 - [ ] [OKE Node Pools](F-containers-kubernetes/oke-node-pools/README.md)
 - [ ] [Oracle Cloud Infrastructure Registry (OCIR)](F-containers-kubernetes/oracle-cloud-infrastructure-registry-ocir/README.md)
@@ -137,7 +137,7 @@ Use checkboxes as a visible checklist and select a topic to open its detailed gu
 - [ ] [Kubernetes Networking & Ingress](F-containers-kubernetes/kubernetes-networking-ingress/README.md)
 - [ ] [OKE Autoscaling](F-containers-kubernetes/oke-autoscaling/README.md)
 
-[Open category tracker](F-containers-kubernetes/README.md) · [SVG]( F-containers-kubernetes/architecture.svg) · [editable draw.io](F-containers-kubernetes/architecture.drawio)
+[Open category tracker](F-containers-kubernetes/README.md) · [SVG](F-containers-kubernetes/architecture.svg) · [editable draw.io](F-containers-kubernetes/architecture.drawio)
 
 </details>
 
@@ -153,7 +153,7 @@ Use checkboxes as a visible checklist and select a topic to open its detailed gu
 - [ ] [Object Lifecycle Management](G-storage-enterprise-file-services/object-lifecycle-management/README.md)
 - [ ] [Storage Backups & Recovery](G-storage-enterprise-file-services/storage-backups-recovery/README.md)
 
-[Open category tracker](G-storage-enterprise-file-services/README.md) · [SVG]( G-storage-enterprise-file-services/architecture.svg) · [editable draw.io](G-storage-enterprise-file-services/architecture.drawio)
+[Open category tracker](G-storage-enterprise-file-services/README.md) · [SVG](G-storage-enterprise-file-services/architecture.svg) · [editable draw.io](G-storage-enterprise-file-services/architecture.drawio)
 
 </details>
 
@@ -171,7 +171,7 @@ Use checkboxes as a visible checklist and select a topic to open its detailed gu
 - [ ] [GoldenGate](H-databases-data-platforms/goldengate/README.md)
 - [ ] [Database Migration Service](H-databases-data-platforms/database-migration-service/README.md)
 
-[Open category tracker](H-databases-data-platforms/README.md) · [SVG]( H-databases-data-platforms/architecture.svg) · [editable draw.io](H-databases-data-platforms/architecture.drawio)
+[Open category tracker](H-databases-data-platforms/README.md) · [SVG](H-databases-data-platforms/architecture.svg) · [editable draw.io](H-databases-data-platforms/architecture.drawio)
 
 </details>
 
@@ -187,7 +187,7 @@ Use checkboxes as a visible checklist and select a topic to open its detailed gu
 - [ ] [Service Connector Hub](I-integration-api-management/service-connector-hub/README.md)
 - [ ] [Email Delivery](I-integration-api-management/email-delivery/README.md)
 
-[Open category tracker](I-integration-api-management/README.md) · [SVG]( I-integration-api-management/architecture.svg) · [editable draw.io](I-integration-api-management/architecture.drawio)
+[Open category tracker](I-integration-api-management/README.md) · [SVG](I-integration-api-management/architecture.svg) · [editable draw.io](I-integration-api-management/architecture.drawio)
 
 </details>
 
@@ -203,7 +203,7 @@ Use checkboxes as a visible checklist and select a topic to open its detailed gu
 - [ ] [Certificates](J-security-secrets-governance/certificates/README.md)
 - [ ] [Audit Service](J-security-secrets-governance/audit-service/README.md)
 
-[Open category tracker](J-security-secrets-governance/README.md) · [SVG]( J-security-secrets-governance/architecture.svg) · [editable draw.io](J-security-secrets-governance/architecture.drawio)
+[Open category tracker](J-security-secrets-governance/README.md) · [SVG](J-security-secrets-governance/architecture.svg) · [editable draw.io](J-security-secrets-governance/architecture.drawio)
 
 </details>
 
@@ -221,7 +221,7 @@ Use checkboxes as a visible checklist and select a topic to open its detailed gu
 - [ ] [Resource Search](K-monitoring-operations-cost/resource-search/README.md)
 - [ ] [Events and Notifications Operations](K-monitoring-operations-cost/events-and-notifications-operations/README.md)
 
-[Open category tracker](K-monitoring-operations-cost/README.md) · [SVG]( K-monitoring-operations-cost/architecture.svg) · [editable draw.io](K-monitoring-operations-cost/architecture.drawio)
+[Open category tracker](K-monitoring-operations-cost/README.md) · [SVG](K-monitoring-operations-cost/architecture.svg) · [editable draw.io](K-monitoring-operations-cost/architecture.drawio)
 
 </details>
 
@@ -239,7 +239,7 @@ Use checkboxes as a visible checklist and select a topic to open its detailed gu
 - [ ] [Vision](L-devops-resilience-migration-ai/vision/README.md)
 - [ ] [Document Understanding](L-devops-resilience-migration-ai/document-understanding/README.md)
 
-[Open category tracker](L-devops-resilience-migration-ai/README.md) · [SVG]( L-devops-resilience-migration-ai/architecture.svg) · [editable draw.io](L-devops-resilience-migration-ai/architecture.drawio)
+[Open category tracker](L-devops-resilience-migration-ai/README.md) · [SVG](L-devops-resilience-migration-ai/architecture.svg) · [editable draw.io](L-devops-resilience-migration-ai/architecture.drawio)
 
 </details>
 
@@ -255,7 +255,7 @@ Use checkboxes as a visible checklist and select a topic to open its detailed gu
 - [ ] [Recovery Runbooks](12-automation-backup-disaster-recovery/recovery-runbooks/README.md)
 - [ ] [Disaster Recovery Testing](12-automation-backup-disaster-recovery/disaster-recovery-testing/README.md)
 
-[Open category tracker](12-automation-backup-disaster-recovery/README.md) · [SVG]( 12-automation-backup-disaster-recovery/architecture.svg) · [editable draw.io](12-automation-backup-disaster-recovery/architecture.drawio)
+[Open category tracker](12-automation-backup-disaster-recovery/README.md) · [SVG](12-automation-backup-disaster-recovery/architecture.svg) · [editable draw.io](12-automation-backup-disaster-recovery/architecture.drawio)
 
 </details>
 
