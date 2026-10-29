@@ -1,0 +1,10 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.pem
+*.key
+*.oci
+.env
+.env.*
+secrets/
