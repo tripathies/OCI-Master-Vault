@@ -1,0 +1,18 @@
+flowchart TB
+ TEN["OCI Tenancy / Compartment / IAM Context"]
+ S0["Object Storage"]
+ S1["Block Volume"]
+ S2["Boot Volumes"]
+ S3["Volume Groups & Replication"]
+ S4["File Storage Service (FSS)"]
+ S5["Archive Storage"]
+ S6["Object Lifecycle Management"]
+ S7["Storage Backups & Recovery"]
+ TEN --> S0
+ TEN --> S1
+ TEN --> S2
+ TEN --> S3
+ TEN --> S4
+ TEN --> S5
+ TEN --> S6
+ TEN --> S7

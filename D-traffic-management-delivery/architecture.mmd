@@ -1,0 +1,18 @@
+flowchart TB
+ TEN["OCI Tenancy / Compartment / IAM Context"]
+ S0["OCI Load Balancer"]
+ S1["Network Load Balancer"]
+ S2["DNS Zones & Records"]
+ S3["Traffic Management Steering Policies"]
+ S4["Web Application Firewall (WAF)"]
+ S5["Certificates & TLS"]
+ S6["Health Checks & Backend Sets"]
+ S7["OCI API Gateway"]
+ TEN --> S0
+ TEN --> S1
+ TEN --> S2
+ TEN --> S3
+ TEN --> S4
+ TEN --> S5
+ TEN --> S6
+ TEN --> S7

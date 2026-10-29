@@ -1,0 +1,8 @@
+flowchart TB
+ IAM["Tenancy / Compartment / IAM Policy"]
+ SVC["File Storage Service (FSS)"]
+ SEC["Security and Connectivity<br/>IAM / Network / Encryption"]
+ OPS["Operations and Cost<br/>Logging / Monitoring / Budgets"]
+ IAM --> SVC
+ SVC --> SEC
+ SVC --> OPS

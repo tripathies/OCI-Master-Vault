@@ -27,5 +27,5 @@ Use Oracle documentation as the source of truth for service behavior, policy syn
 - [OCI Terraform provider](https://registry.terraform.io/providers/oracle/oci/latest/docs)
 - [OCI pricing](https://www.oracle.com/cloud/pricing/)
 
-## Learning and validation notes
-This repository's diagrams and guide templates are original learning resources, not official Oracle reference implementations. Verify all details against current documentation before production use.
+## Validation note
+These are learning resources, not official Oracle reference implementations. Verify all details against current docs before production use.

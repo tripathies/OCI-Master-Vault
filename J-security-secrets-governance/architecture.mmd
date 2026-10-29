@@ -1,0 +1,18 @@
+flowchart TB
+ TEN["OCI Tenancy / Compartment / IAM Context"]
+ S0["OCI Vault"]
+ S1["Cloud Guard"]
+ S2["Security Zones"]
+ S3["Vulnerability Scanning"]
+ S4["Data Safe"]
+ S5["OCI Bastion"]
+ S6["Certificates"]
+ S7["Audit Service"]
+ TEN --> S0
+ TEN --> S1
+ TEN --> S2
+ TEN --> S3
+ TEN --> S4
+ TEN --> S5
+ TEN --> S6
+ TEN --> S7
