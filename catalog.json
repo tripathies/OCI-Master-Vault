@@ -1,0 +1,671 @@
+{
+  "title": "OCI Master Vault",
+  "categories": [
+    {
+      "key": "A",
+      "slug": "A-cloud-foundation-landing-zones",
+      "title": "Cloud Foundation & Landing Zones",
+      "topics": [
+        {
+          "name": "Oracle Cloud Infrastructure Fundamentals",
+          "slug": "oracle-cloud-infrastructure-fundamentals",
+          "path": "A-cloud-foundation-landing-zones/oracle-cloud-infrastructure-fundamentals/README.md"
+        },
+        {
+          "name": "Tenancies, Regions & Availability Domains",
+          "slug": "tenancies-regions-availability-domains",
+          "path": "A-cloud-foundation-landing-zones/tenancies-regions-availability-domains/README.md"
+        },
+        {
+          "name": "Compartments & Resource Hierarchy",
+          "slug": "compartments-resource-hierarchy",
+          "path": "A-cloud-foundation-landing-zones/compartments-resource-hierarchy/README.md"
+        },
+        {
+          "name": "Tags, Tag Defaults & Cost Tracking",
+          "slug": "tags-tag-defaults-cost-tracking",
+          "path": "A-cloud-foundation-landing-zones/tags-tag-defaults-cost-tracking/README.md"
+        },
+        {
+          "name": "Quotas, Limits & Service Limits",
+          "slug": "quotas-limits-service-limits",
+          "path": "A-cloud-foundation-landing-zones/quotas-limits-service-limits/README.md"
+        },
+        {
+          "name": "OCI Core Landing Zone",
+          "slug": "oci-core-landing-zone",
+          "path": "A-cloud-foundation-landing-zones/oci-core-landing-zone/README.md"
+        },
+        {
+          "name": "OCI Well-Architected Framework",
+          "slug": "oci-well-architected-framework",
+          "path": "A-cloud-foundation-landing-zones/oci-well-architected-framework/README.md"
+        },
+        {
+          "name": "Cloud Advisor",
+          "slug": "cloud-advisor",
+          "path": "A-cloud-foundation-landing-zones/cloud-advisor/README.md"
+        },
+        {
+          "name": "Support Requests & Service Limits",
+          "slug": "support-requests-service-limits",
+          "path": "A-cloud-foundation-landing-zones/support-requests-service-limits/README.md"
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "slug": "B-identity-access-management",
+      "title": "Identity & Access Management",
+      "topics": [
+        {
+          "name": "OCI IAM Overview",
+          "slug": "oci-iam-overview",
+          "path": "B-identity-access-management/oci-iam-overview/README.md"
+        },
+        {
+          "name": "Identity Domains",
+          "slug": "identity-domains",
+          "path": "B-identity-access-management/identity-domains/README.md"
+        },
+        {
+          "name": "Users, Groups & Dynamic Groups",
+          "slug": "users-groups-dynamic-groups",
+          "path": "B-identity-access-management/users-groups-dynamic-groups/README.md"
+        },
+        {
+          "name": "IAM Policies",
+          "slug": "iam-policies",
+          "path": "B-identity-access-management/iam-policies/README.md"
+        },
+        {
+          "name": "Federation & Identity Providers",
+          "slug": "federation-identity-providers",
+          "path": "B-identity-access-management/federation-identity-providers/README.md"
+        },
+        {
+          "name": "Instance Principals",
+          "slug": "instance-principals",
+          "path": "B-identity-access-management/instance-principals/README.md"
+        },
+        {
+          "name": "Resource Principals",
+          "slug": "resource-principals",
+          "path": "B-identity-access-management/resource-principals/README.md"
+        },
+        {
+          "name": "Workload Identity & Secrets Access",
+          "slug": "workload-identity-secrets-access",
+          "path": "B-identity-access-management/workload-identity-secrets-access/README.md"
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "slug": "C-networking-private-connectivity",
+      "title": "Networking & Private Connectivity",
+      "topics": [
+        {
+          "name": "Virtual Cloud Networks (VCNs)",
+          "slug": "virtual-cloud-networks-vcns",
+          "path": "C-networking-private-connectivity/virtual-cloud-networks-vcns/README.md"
+        },
+        {
+          "name": "Subnets & CIDR Planning",
+          "slug": "subnets-cidr-planning",
+          "path": "C-networking-private-connectivity/subnets-cidr-planning/README.md"
+        },
+        {
+          "name": "Route Tables",
+          "slug": "route-tables",
+          "path": "C-networking-private-connectivity/route-tables/README.md"
+        },
+        {
+          "name": "Security Lists",
+          "slug": "security-lists",
+          "path": "C-networking-private-connectivity/security-lists/README.md"
+        },
+        {
+          "name": "Network Security Groups (NSGs)",
+          "slug": "network-security-groups-nsgs",
+          "path": "C-networking-private-connectivity/network-security-groups-nsgs/README.md"
+        },
+        {
+          "name": "Dynamic Routing Gateway (DRG)",
+          "slug": "dynamic-routing-gateway-drg",
+          "path": "C-networking-private-connectivity/dynamic-routing-gateway-drg/README.md"
+        },
+        {
+          "name": "Local Peering Gateway (LPG)",
+          "slug": "local-peering-gateway-lpg",
+          "path": "C-networking-private-connectivity/local-peering-gateway-lpg/README.md"
+        },
+        {
+          "name": "Internet Gateway",
+          "slug": "internet-gateway",
+          "path": "C-networking-private-connectivity/internet-gateway/README.md"
+        },
+        {
+          "name": "NAT Gateway",
+          "slug": "nat-gateway",
+          "path": "C-networking-private-connectivity/nat-gateway/README.md"
+        },
+        {
+          "name": "Service Gateway",
+          "slug": "service-gateway",
+          "path": "C-networking-private-connectivity/service-gateway/README.md"
+        },
+        {
+          "name": "FastConnect",
+          "slug": "fastconnect",
+          "path": "C-networking-private-connectivity/fastconnect/README.md"
+        },
+        {
+          "name": "Site-to-Site VPN",
+          "slug": "site-to-site-vpn",
+          "path": "C-networking-private-connectivity/site-to-site-vpn/README.md"
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "slug": "D-traffic-management-delivery",
+      "title": "Traffic Management & Delivery",
+      "topics": [
+        {
+          "name": "OCI Load Balancer",
+          "slug": "oci-load-balancer",
+          "path": "D-traffic-management-delivery/oci-load-balancer/README.md"
+        },
+        {
+          "name": "Network Load Balancer",
+          "slug": "network-load-balancer",
+          "path": "D-traffic-management-delivery/network-load-balancer/README.md"
+        },
+        {
+          "name": "DNS Zones & Records",
+          "slug": "dns-zones-records",
+          "path": "D-traffic-management-delivery/dns-zones-records/README.md"
+        },
+        {
+          "name": "Traffic Management Steering Policies",
+          "slug": "traffic-management-steering-policies",
+          "path": "D-traffic-management-delivery/traffic-management-steering-policies/README.md"
+        },
+        {
+          "name": "Web Application Firewall (WAF)",
+          "slug": "web-application-firewall-waf",
+          "path": "D-traffic-management-delivery/web-application-firewall-waf/README.md"
+        },
+        {
+          "name": "Certificates & TLS",
+          "slug": "certificates-tls",
+          "path": "D-traffic-management-delivery/certificates-tls/README.md"
+        },
+        {
+          "name": "Health Checks & Backend Sets",
+          "slug": "health-checks-backend-sets",
+          "path": "D-traffic-management-delivery/health-checks-backend-sets/README.md"
+        },
+        {
+          "name": "OCI API Gateway",
+          "slug": "oci-api-gateway",
+          "path": "D-traffic-management-delivery/oci-api-gateway/README.md"
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "slug": "E-compute-application-hosting",
+      "title": "Compute & Application Hosting",
+      "topics": [
+        {
+          "name": "Compute Instances",
+          "slug": "compute-instances",
+          "path": "E-compute-application-hosting/compute-instances/README.md"
+        },
+        {
+          "name": "Compute Shapes",
+          "slug": "compute-shapes",
+          "path": "E-compute-application-hosting/compute-shapes/README.md"
+        },
+        {
+          "name": "Custom Images & Image Management",
+          "slug": "custom-images-image-management",
+          "path": "E-compute-application-hosting/custom-images-image-management/README.md"
+        },
+        {
+          "name": "Instance Configurations",
+          "slug": "instance-configurations",
+          "path": "E-compute-application-hosting/instance-configurations/README.md"
+        },
+        {
+          "name": "Instance Pools",
+          "slug": "instance-pools",
+          "path": "E-compute-application-hosting/instance-pools/README.md"
+        },
+        {
+          "name": "Autoscaling",
+          "slug": "autoscaling",
+          "path": "E-compute-application-hosting/autoscaling/README.md"
+        },
+        {
+          "name": "OCI Functions",
+          "slug": "oci-functions",
+          "path": "E-compute-application-hosting/oci-functions/README.md"
+        },
+        {
+          "name": "API Gateway",
+          "slug": "api-gateway",
+          "path": "E-compute-application-hosting/api-gateway/README.md"
+        },
+        {
+          "name": "Bastion Service",
+          "slug": "bastion-service",
+          "path": "E-compute-application-hosting/bastion-service/README.md"
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "slug": "F-containers-kubernetes",
+      "title": "Containers & Kubernetes",
+      "topics": [
+        {
+          "name": "Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE)",
+          "slug": "oci-container-engine-for-kubernetes-oke",
+          "path": "F-containers-kubernetes/oci-container-engine-for-kubernetes-oke/README.md"
+        },
+        {
+          "name": "OKE Cluster Design",
+          "slug": "oke-cluster-design",
+          "path": "F-containers-kubernetes/oke-cluster-design/README.md"
+        },
+        {
+          "name": "OKE Node Pools",
+          "slug": "oke-node-pools",
+          "path": "F-containers-kubernetes/oke-node-pools/README.md"
+        },
+        {
+          "name": "Oracle Cloud Infrastructure Registry (OCIR)",
+          "slug": "oracle-cloud-infrastructure-registry-ocir",
+          "path": "F-containers-kubernetes/oracle-cloud-infrastructure-registry-ocir/README.md"
+        },
+        {
+          "name": "Container Instances",
+          "slug": "container-instances",
+          "path": "F-containers-kubernetes/container-instances/README.md"
+        },
+        {
+          "name": "Kubernetes Networking & Ingress",
+          "slug": "kubernetes-networking-ingress",
+          "path": "F-containers-kubernetes/kubernetes-networking-ingress/README.md"
+        },
+        {
+          "name": "OKE Autoscaling",
+          "slug": "oke-autoscaling",
+          "path": "F-containers-kubernetes/oke-autoscaling/README.md"
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "slug": "G-storage-enterprise-file-services",
+      "title": "Storage & Enterprise File Services",
+      "topics": [
+        {
+          "name": "Object Storage",
+          "slug": "object-storage",
+          "path": "G-storage-enterprise-file-services/object-storage/README.md"
+        },
+        {
+          "name": "Block Volume",
+          "slug": "block-volume",
+          "path": "G-storage-enterprise-file-services/block-volume/README.md"
+        },
+        {
+          "name": "Boot Volumes",
+          "slug": "boot-volumes",
+          "path": "G-storage-enterprise-file-services/boot-volumes/README.md"
+        },
+        {
+          "name": "Volume Groups & Replication",
+          "slug": "volume-groups-replication",
+          "path": "G-storage-enterprise-file-services/volume-groups-replication/README.md"
+        },
+        {
+          "name": "File Storage Service (FSS)",
+          "slug": "file-storage-service-fss",
+          "path": "G-storage-enterprise-file-services/file-storage-service-fss/README.md"
+        },
+        {
+          "name": "Archive Storage",
+          "slug": "archive-storage",
+          "path": "G-storage-enterprise-file-services/archive-storage/README.md"
+        },
+        {
+          "name": "Object Lifecycle Management",
+          "slug": "object-lifecycle-management",
+          "path": "G-storage-enterprise-file-services/object-lifecycle-management/README.md"
+        },
+        {
+          "name": "Storage Backups & Recovery",
+          "slug": "storage-backups-recovery",
+          "path": "G-storage-enterprise-file-services/storage-backups-recovery/README.md"
+        }
+      ]
+    },
+    {
+      "key": "H",
+      "slug": "H-databases-data-platforms",
+      "title": "Databases & Data Platforms",
+      "topics": [
+        {
+          "name": "Autonomous Database",
+          "slug": "autonomous-database",
+          "path": "H-databases-data-platforms/autonomous-database/README.md"
+        },
+        {
+          "name": "Base Database Service",
+          "slug": "base-database-service",
+          "path": "H-databases-data-platforms/base-database-service/README.md"
+        },
+        {
+          "name": "Exadata Database Service",
+          "slug": "exadata-database-service",
+          "path": "H-databases-data-platforms/exadata-database-service/README.md"
+        },
+        {
+          "name": "MySQL HeatWave",
+          "slug": "mysql-heatwave",
+          "path": "H-databases-data-platforms/mysql-heatwave/README.md"
+        },
+        {
+          "name": "Oracle NoSQL Database Cloud Service",
+          "slug": "oracle-nosql-database-cloud-service",
+          "path": "H-databases-data-platforms/oracle-nosql-database-cloud-service/README.md"
+        },
+        {
+          "name": "Database Tools",
+          "slug": "database-tools",
+          "path": "H-databases-data-platforms/database-tools/README.md"
+        },
+        {
+          "name": "Database Management",
+          "slug": "database-management",
+          "path": "H-databases-data-platforms/database-management/README.md"
+        },
+        {
+          "name": "Oracle Analytics Cloud",
+          "slug": "oracle-analytics-cloud",
+          "path": "H-databases-data-platforms/oracle-analytics-cloud/README.md"
+        },
+        {
+          "name": "GoldenGate",
+          "slug": "goldengate",
+          "path": "H-databases-data-platforms/goldengate/README.md"
+        },
+        {
+          "name": "Database Migration Service",
+          "slug": "database-migration-service",
+          "path": "H-databases-data-platforms/database-migration-service/README.md"
+        }
+      ]
+    },
+    {
+      "key": "I",
+      "slug": "I-integration-api-management",
+      "title": "Integration & API Management",
+      "topics": [
+        {
+          "name": "OCI Integration",
+          "slug": "oci-integration",
+          "path": "I-integration-api-management/oci-integration/README.md"
+        },
+        {
+          "name": "API Gateway",
+          "slug": "api-gateway",
+          "path": "I-integration-api-management/api-gateway/README.md"
+        },
+        {
+          "name": "Streaming",
+          "slug": "streaming",
+          "path": "I-integration-api-management/streaming/README.md"
+        },
+        {
+          "name": "Queue",
+          "slug": "queue",
+          "path": "I-integration-api-management/queue/README.md"
+        },
+        {
+          "name": "Events Service",
+          "slug": "events-service",
+          "path": "I-integration-api-management/events-service/README.md"
+        },
+        {
+          "name": "Notifications",
+          "slug": "notifications",
+          "path": "I-integration-api-management/notifications/README.md"
+        },
+        {
+          "name": "Service Connector Hub",
+          "slug": "service-connector-hub",
+          "path": "I-integration-api-management/service-connector-hub/README.md"
+        },
+        {
+          "name": "Email Delivery",
+          "slug": "email-delivery",
+          "path": "I-integration-api-management/email-delivery/README.md"
+        }
+      ]
+    },
+    {
+      "key": "J",
+      "slug": "J-security-secrets-governance",
+      "title": "Security, Secrets & Governance",
+      "topics": [
+        {
+          "name": "OCI Vault",
+          "slug": "oci-vault",
+          "path": "J-security-secrets-governance/oci-vault/README.md"
+        },
+        {
+          "name": "Cloud Guard",
+          "slug": "cloud-guard",
+          "path": "J-security-secrets-governance/cloud-guard/README.md"
+        },
+        {
+          "name": "Security Zones",
+          "slug": "security-zones",
+          "path": "J-security-secrets-governance/security-zones/README.md"
+        },
+        {
+          "name": "Vulnerability Scanning",
+          "slug": "vulnerability-scanning",
+          "path": "J-security-secrets-governance/vulnerability-scanning/README.md"
+        },
+        {
+          "name": "Data Safe",
+          "slug": "data-safe",
+          "path": "J-security-secrets-governance/data-safe/README.md"
+        },
+        {
+          "name": "OCI Bastion",
+          "slug": "oci-bastion",
+          "path": "J-security-secrets-governance/oci-bastion/README.md"
+        },
+        {
+          "name": "Certificates",
+          "slug": "certificates",
+          "path": "J-security-secrets-governance/certificates/README.md"
+        },
+        {
+          "name": "Audit Service",
+          "slug": "audit-service",
+          "path": "J-security-secrets-governance/audit-service/README.md"
+        }
+      ]
+    },
+    {
+      "key": "K",
+      "slug": "K-monitoring-operations-cost",
+      "title": "Monitoring, Operations & Cost",
+      "topics": [
+        {
+          "name": "Monitoring Service",
+          "slug": "monitoring-service",
+          "path": "K-monitoring-operations-cost/monitoring-service/README.md"
+        },
+        {
+          "name": "Alarms",
+          "slug": "alarms",
+          "path": "K-monitoring-operations-cost/alarms/README.md"
+        },
+        {
+          "name": "Logging Service",
+          "slug": "logging-service",
+          "path": "K-monitoring-operations-cost/logging-service/README.md"
+        },
+        {
+          "name": "Logging Analytics",
+          "slug": "logging-analytics",
+          "path": "K-monitoring-operations-cost/logging-analytics/README.md"
+        },
+        {
+          "name": "Application Performance Monitoring",
+          "slug": "application-performance-monitoring",
+          "path": "K-monitoring-operations-cost/application-performance-monitoring/README.md"
+        },
+        {
+          "name": "Operations Insights",
+          "slug": "operations-insights",
+          "path": "K-monitoring-operations-cost/operations-insights/README.md"
+        },
+        {
+          "name": "Budgets & Cost Analysis",
+          "slug": "budgets-cost-analysis",
+          "path": "K-monitoring-operations-cost/budgets-cost-analysis/README.md"
+        },
+        {
+          "name": "Usage Reports",
+          "slug": "usage-reports",
+          "path": "K-monitoring-operations-cost/usage-reports/README.md"
+        },
+        {
+          "name": "Resource Search",
+          "slug": "resource-search",
+          "path": "K-monitoring-operations-cost/resource-search/README.md"
+        },
+        {
+          "name": "Events and Notifications Operations",
+          "slug": "events-and-notifications-operations",
+          "path": "K-monitoring-operations-cost/events-and-notifications-operations/README.md"
+        }
+      ]
+    },
+    {
+      "key": "L",
+      "slug": "L-devops-resilience-migration-ai",
+      "title": "DevOps, Resilience, Migration & AI",
+      "topics": [
+        {
+          "name": "OCI Resource Manager",
+          "slug": "oci-resource-manager",
+          "path": "L-devops-resilience-migration-ai/oci-resource-manager/README.md"
+        },
+        {
+          "name": "Terraform for OCI",
+          "slug": "terraform-for-oci",
+          "path": "L-devops-resilience-migration-ai/terraform-for-oci/README.md"
+        },
+        {
+          "name": "OCI DevOps",
+          "slug": "oci-devops",
+          "path": "L-devops-resilience-migration-ai/oci-devops/README.md"
+        },
+        {
+          "name": "Full Stack Disaster Recovery",
+          "slug": "full-stack-disaster-recovery",
+          "path": "L-devops-resilience-migration-ai/full-stack-disaster-recovery/README.md"
+        },
+        {
+          "name": "Cloud Migrations",
+          "slug": "cloud-migrations",
+          "path": "L-devops-resilience-migration-ai/cloud-migrations/README.md"
+        },
+        {
+          "name": "Generative AI Service",
+          "slug": "generative-ai-service",
+          "path": "L-devops-resilience-migration-ai/generative-ai-service/README.md"
+        },
+        {
+          "name": "OCI AI Services",
+          "slug": "oci-ai-services",
+          "path": "L-devops-resilience-migration-ai/oci-ai-services/README.md"
+        },
+        {
+          "name": "Data Science",
+          "slug": "data-science",
+          "path": "L-devops-resilience-migration-ai/data-science/README.md"
+        },
+        {
+          "name": "Vision",
+          "slug": "vision",
+          "path": "L-devops-resilience-migration-ai/vision/README.md"
+        },
+        {
+          "name": "Document Understanding",
+          "slug": "document-understanding",
+          "path": "L-devops-resilience-migration-ai/document-understanding/README.md"
+        }
+      ]
+    },
+    {
+      "key": "12",
+      "slug": "12-automation-backup-disaster-recovery",
+      "title": "Automation, Backup & Disaster Recovery",
+      "topics": [
+        {
+          "name": "OCI CLI",
+          "slug": "oci-cli",
+          "path": "12-automation-backup-disaster-recovery/oci-cli/README.md"
+        },
+        {
+          "name": "OCI SDKs",
+          "slug": "oci-sdks",
+          "path": "12-automation-backup-disaster-recovery/oci-sdks/README.md"
+        },
+        {
+          "name": "Automation with Functions",
+          "slug": "automation-with-functions",
+          "path": "12-automation-backup-disaster-recovery/automation-with-functions/README.md"
+        },
+        {
+          "name": "Block Volume Backups",
+          "slug": "block-volume-backups",
+          "path": "12-automation-backup-disaster-recovery/block-volume-backups/README.md"
+        },
+        {
+          "name": "Database Backups",
+          "slug": "database-backups",
+          "path": "12-automation-backup-disaster-recovery/database-backups/README.md"
+        },
+        {
+          "name": "Cross-Region Replication",
+          "slug": "cross-region-replication",
+          "path": "12-automation-backup-disaster-recovery/cross-region-replication/README.md"
+        },
+        {
+          "name": "Recovery Runbooks",
+          "slug": "recovery-runbooks",
+          "path": "12-automation-backup-disaster-recovery/recovery-runbooks/README.md"
+        },
+        {
+          "name": "Disaster Recovery Testing",
+          "slug": "disaster-recovery-testing",
+          "path": "12-automation-backup-disaster-recovery/disaster-recovery-testing/README.md"
+        }
+      ]
+    }
+  ]
+}
