@@ -288,3 +288,12 @@ Record objective, architecture, prerequisites, policies, commands/IaC, validatio
 - [OCI pricing](https://www.oracle.com/cloud/pricing/)
 
 > **Validation status:** OCI-specific learning scaffold. Diagrams and standard guides are not individually production-certified; validate service-specific IAM, region support, limits, Terraform arguments and pricing before real deployment.
+
+## Licensing and attribution
+
+- **Original code and software:** MIT License — see [LICENSE](LICENSE).
+- **Original documentation, learning notes, and architecture diagrams:** CC BY 4.0 — see [LICENSE-DOCS.md](LICENSE-DOCS.md).
+- **Third-party material:** Cloud-provider names, trademarks, product screenshots, excerpts, icons, images, fonts, and other third-party content are not relicensed by this repository. Follow the original owner's terms and the attribution/source notices in the relevant files.
+
+These licenses apply only to original material that the repository owner has the right to license. If a file contains a more specific license or attribution notice, follow that notice.
+
