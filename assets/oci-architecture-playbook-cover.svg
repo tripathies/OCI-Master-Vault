@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Oracle Cloud Infrastructure Architecture Playbook</title>
+<desc id="desc">Conceptual OCI enterprise reference architecture covering tenancy and compartments, identity and governance, edge networking, production workloads, integration, containers, data and AI, security and multi-region disaster recovery.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#160e18"/><stop offset=".55" stop-color="#251522"/><stop offset="1" stop-color="#080d1a"/></linearGradient>
+ <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd0c8"/><stop offset=".32" stop-color="#e64b43"/><stop offset=".7" stop-color="#c74634"/><stop offset="1" stop-color="#6d171b"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0c2"/><stop offset=".5" stop-color="#d6a45d"/><stop offset="1" stop-color="#80502d"/></linearGradient>
+ <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3a2630"/><stop offset="1" stop-color="#171c2d"/></linearGradient>
+ <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M46 0H0V46" fill="none" stroke="#e9a18c" stroke-opacity=".10"/></pattern>
+ <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <marker id="arr" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#ffb18e" stroke-width="1.5"/></marker>
+ <style>text{font-family:Arial,Helvetica,sans-serif}.sec{font-size:16px;font-weight:800;letter-spacing:1px}.h{font-size:17px;font-weight:700;fill:#fff6f1}.s{font-size:14px;fill:#ead2ce}.muted{font-size:12px;fill:#c5aeb1}.flow{fill:none;stroke:#ffb18e;stroke-width:2;marker-end:url(#arr)}</style>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/><rect width="1600" height="900" fill="url(#grid)"/>
+<g opacity=".14" fill="none" stroke="#c74634"><circle cx="1370" cy="95" r="280" stroke-dasharray="3 15"/><circle cx="1370" cy="95" r="225" stroke-dasharray="3 15"/></g>
+<!-- branding -->
+<g>
+ <text x="52" y="125" font-size="125" font-weight="900" letter-spacing="3" fill="url(#red)" filter="url(#glow)">OCI</text>
+ <text x="58" y="215" font-size="61" font-weight="900" fill="#f6edf0" letter-spacing="1">ARCHITECTURE</text>
+ <text x="58" y="285" font-size="72" font-weight="900" fill="#ffffff" letter-spacing="1">PLAYBOOK</text>
+ <text x="62" y="353" font-size="27" font-weight="700" fill="#fff4ef">From Cloud Fundamentals to</text>
+ <text x="62" y="390" font-size="27" font-weight="700" fill="#ffad8c">Enterprise-Grade Architecture</text>
+ <rect x="54" y="435" width="650" height="57" rx="28" fill="#2c1c29" stroke="#c74634" stroke-width="2.5" filter="url(#glow)"/>
+ <text x="379" y="471" text-anchor="middle" font-size="22" font-weight="800" letter-spacing=".7" fill="#ffd4c7">END-TO-END OCI REFERENCE DESIGN</text>
+ <rect x="56" y="540" width="648" height="235" rx="24" fill="#130f1d" stroke="#d68b72" stroke-width="2"/>
+ <path d="M85 585H675M85 730H675" stroke="#9e554b" stroke-opacity=".5"/>
+ <text x="88" y="625" font-size="23" font-weight="800" fill="#fff1ec">ORACLE CLOUD INFRASTRUCTURE</text>
+ <text x="88" y="661" font-size="18" fill="#e6c6c3">A practical path from cloud foundations</text>
+ <text x="88" y="688" font-size="18" fill="#e6c6c3">to governed, resilient cloud platforms.</text>
+ <rect x="86" y="704" width="590" height="48" rx="24" fill="#321d2b" stroke="#ffb18e" stroke-width="1.8"/>
+ <text x="381" y="734" text-anchor="middle" font-size="19" font-weight="800" letter-spacing="1.3" fill="#fff4ef">DESIGN  •  BUILD  •  SECURE  •  AUTOMATE</text>
+ <text x="60" y="825" font-size="14" letter-spacing="2.5" fill="#d7a7a0">OPEN-SOURCE OCI ARCHITECTURE KNOWLEDGE</text>
+ <text x="60" y="851" font-size="13" fill="#c3aeb5">Conceptual enterprise pattern • validate region, service and tenancy limits</text>
+</g>
+<!-- architecture canvas -->
+<g>
+ <rect x="735" y="28" width="820" height="840" rx="22" fill="#100f1d" stroke="#d47768" stroke-width="2.5" filter="url(#glow)"/>
+ <text x="765" y="65" font-size="23" font-weight="900" fill="#fff2ed">ORACLE CLOUD ENTERPRISE REFERENCE ARCHITECTURE</text>
+ <text x="1525" y="65" text-anchor="end" font-size="12" letter-spacing="1" fill="#d2aaa5">MULTI-REGION • ZERO TRUST • GOVERNED DESIGN</text>
+ <!-- edge -->
+ <rect x="760" y="86" width="770" height="92" rx="13" fill="#2b1d2a" stroke="#e58d79" stroke-width="1.7"/>
+ <text x="780" y="110" class="sec" fill="#ffb49e">01  GLOBAL / EDGE / NETWORK ENTRY</text>
+ <rect x="782" y="121" width="215" height="45" rx="8" fill="url(#panel)" stroke="#e58d79"/><text x="889" y="140" text-anchor="middle" class="h">OCI DNS</text><text x="889" y="157" text-anchor="middle" class="muted">Zones • Traffic steering</text>
+ <path d="M1000 143H1035" class="flow"/>
+ <rect x="1045" y="121" width="245" height="45" rx="8" fill="url(#panel)" stroke="#e58d79"/><text x="1167" y="140" text-anchor="middle" class="h">OCI WAF • Load Balancer</text><text x="1167" y="157" text-anchor="middle" class="muted">HTTPS • Threat protection</text>
+ <path d="M1293 143H1320" class="flow"/>
+ <rect x="1330" y="121" width="180" height="45" rx="8" fill="url(#panel)" stroke="#e58d79"/><text x="1420" y="140" text-anchor="middle" class="h">DRG • FastConnect</text><text x="1420" y="157" text-anchor="middle" class="muted">Hybrid connectivity</text>
+ <!-- tenancy -->
+ <rect x="760" y="190" width="770" height="113" rx="13" fill="#302321" stroke="#d6a45d" stroke-width="1.8"/>
+ <text x="780" y="216" class="sec" fill="#f6d89b">02  OCI TENANCY • GOVERNANCE HIERARCHY</text>
+ <rect x="780" y="230" width="170" height="58" rx="8" fill="#3a2b2d" stroke="#d6a45d"/><text x="865" y="254" text-anchor="middle" class="h">Tenancy</text><text x="865" y="273" text-anchor="middle" class="muted">Root compartment</text>
+ <rect x="965" y="230" width="170" height="58" rx="8" fill="#3a2b2d" stroke="#d6a45d"/><text x="1050" y="254" text-anchor="middle" class="h">Compartments</text><text x="1050" y="273" text-anchor="middle" class="muted">Workload boundaries</text>
+ <rect x="1150" y="230" width="170" height="58" rx="8" fill="#3a2b2d" stroke="#d6a45d"/><text x="1235" y="254" text-anchor="middle" class="h">IAM Policies</text><text x="1235" y="273" text-anchor="middle" class="muted">Groups • Dynamic groups</text>
+ <rect x="1335" y="230" width="175" height="58" rx="8" fill="#3a2b2d" stroke="#d6a45d"/><text x="1422" y="254" text-anchor="middle" class="h">Budgets &amp; Quotas</text><text x="1422" y="273" text-anchor="middle" class="muted">Cost • Limits</text>
+ <!-- shared controls -->
+ <rect x="760" y="315" width="770" height="91" rx="13" fill="#20242c" stroke="#c74634" stroke-width="1.7"/>
+ <text x="780" y="340" class="sec" fill="#ffb2a4">03  SHARED SECURITY • IDENTITY • OPERATIONS</text>
+ <rect x="780" y="352" width="170" height="43" rx="8" fill="#3a242b" stroke="#c74634"/><text x="865" y="378" text-anchor="middle" class="h">IAM • Identity Domains</text>
+ <rect x="965" y="352" width="170" height="43" rx="8" fill="#3a242b" stroke="#c74634"/><text x="1050" y="378" text-anchor="middle" class="h">Vault • KMS</text>
+ <rect x="1150" y="352" width="170" height="43" rx="8" fill="#3a242b" stroke="#c74634"/><text x="1235" y="378" text-anchor="middle" class="h">Cloud Guard • Security Zones</text>
+ <rect x="1335" y="352" width="175" height="43" rx="8" fill="#3a242b" stroke="#c74634"/><text x="1422" y="378" text-anchor="middle" class="h">Logging • Monitoring</text>
+ <!-- workload -->
+ <rect x="760" y="418" width="480" height="420" rx="14" fill="#241a27" stroke="#c74634" stroke-width="2"/>
+ <path d="M774 418H1226Q1240 418 1240 432V459H760V432Q760 418 774 418Z" fill="#6c292c"/>
+ <text x="780" y="446" font-size="20" font-weight="800" fill="#fff0ed">04  WORKLOAD COMPARTMENT</text>
+ <text x="1218" y="446" text-anchor="end" class="muted">ONLINE APPLICATIONS</text>
+ <rect x="780" y="472" width="440" height="91" rx="10" fill="url(#panel)" stroke="#e58d79"/><text x="800" y="497" class="h">Application &amp; Compute</text><text x="800" y="522" class="s">Compute • Instance Pools • Autoscaling</text><text x="800" y="545" class="s">OKE • Container Instances • Functions</text>
+ <rect x="780" y="576" width="440" height="82" rx="10" fill="url(#panel)" stroke="#e58d79"/><text x="800" y="601" class="h">Data &amp; Storage</text><text x="800" y="626" class="s">Autonomous Database • Base DB • MySQL HeatWave</text><text x="800" y="647" class="s">Object • Block • File Storage</text>
+ <rect x="780" y="671" width="440" height="72" rx="10" fill="url(#panel)" stroke="#e58d79"/><text x="800" y="696" class="h">APIs &amp; Event-Driven Integration</text><text x="800" y="723" class="s">API Gateway • OCI Functions • Events • Notifications • OIC</text>
+ <rect x="780" y="756" width="440" height="65" rx="10" fill="url(#panel)" stroke="#e58d79"/><text x="800" y="781" class="h">Delivery &amp; Private Networking</text><text x="800" y="805" class="s">DevOps • OCIR • VCN • Subnets • NSGs • Service Gateway</text>
+ <!-- AI -->
+ <rect x="1255" y="418" width="275" height="420" rx="14" fill="#211e2b" stroke="#d6a45d" stroke-width="2"/>
+ <path d="M1269 418H1516Q1530 418 1530 432V459H1255V432Q1255 418 1269 418Z" fill="#62413a"/>
+ <text x="1275" y="446" font-size="19" font-weight="800" fill="#fff2e7">05  AI &amp; DATA COMPARTMENT</text>
+ <rect x="1275" y="472" width="235" height="95" rx="10" fill="#352934" stroke="#d6a45d"/><text x="1392" y="498" text-anchor="middle" class="h">Analytics &amp; Lakehouse</text><text x="1392" y="524" text-anchor="middle" class="s">Data Integration • Data Flow</text><text x="1392" y="547" text-anchor="middle" class="s">Analytics Cloud • Object Storage</text>
+ <rect x="1275" y="580" width="235" height="105" rx="10" fill="#352934" stroke="#d6a45d"/><text x="1392" y="607" text-anchor="middle" class="h">Generative AI &amp; ML</text><text x="1392" y="633" text-anchor="middle" class="s">OCI Generative AI • AI Services</text><text x="1392" y="657" text-anchor="middle" class="s">Data Science • Model Deployment</text><text x="1392" y="676" text-anchor="middle" class="muted">Governed model lifecycle</text>
+ <rect x="1275" y="698" width="235" height="123" rx="10" fill="#352934" stroke="#d6a45d"/><text x="1392" y="725" text-anchor="middle" class="h">AI Data Governance</text><text x="1392" y="751" text-anchor="middle" class="s">IAM • Vault • Data Safe</text><text x="1392" y="775" text-anchor="middle" class="s">Audit • Lineage • Policy</text><text x="1392" y="802" text-anchor="middle" class="muted">Security Command Center*</text>
+ <path d="M1241 618H1250" class="flow"/>
+ <text x="1145" y="855" text-anchor="middle" font-size="13" fill="#e5b5aa">06  MULTI-REGION RESILIENCE • BACKUP • REPLICATION • DR</text>
+</g>
+</svg>
