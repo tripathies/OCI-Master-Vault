@@ -7,6 +7,9 @@
 
 ## Start here
 
+![OCI Architecture Playbook — enterprise reference architecture](assets/oci-architecture-playbook-cover.svg)
+
+
 | 📚 Learning tracker | 🏗️ End-to-end design | 🗺️ Diagram library |
 |---|---|---|
 | Work through the catalogue by category. Every topic opens its own guide. | Explore tenancy, compartments, IAM, networking, workloads, data, security and operations. | Preview SVGs and open editable draw.io sources. |
