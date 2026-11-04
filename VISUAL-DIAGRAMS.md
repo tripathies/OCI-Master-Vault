@@ -1,5 +1,10 @@
 # OCI Master Vault — Visual Architecture Library
 
+## OCI component catalogue mind map
+
+- [4K PNG mind map](OCI-COMPONENT-MINDMAP.png) · [Scalable SVG mind map](OCI-COMPONENT-MINDMAP.svg) · [Editable diagrams.net source](OCI-COMPONENT-MINDMAP.drawio)
+
+
 The visual index follows the Azure vault's approach: rendered SVG, editable diagrams.net/draw.io and Mermaid source for the master diagram, category maps and component folders. Diagrams are conceptual learning aids and must be validated for real deployment requirements.
 
 ## Master architecture
