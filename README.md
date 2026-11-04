@@ -1,75 +1,40 @@
-# OCI Master Vault ☁️
-> **Oracle Cloud Infrastructure architecture learning portal** — track your learning, explore the end-to-end enterprise reference design, and open focused guides for OCI services.
-
-## OCI component catalogue mind map
-
-The OCI Master Vault mind map follows the same visual structure as the AWS and GCP vaults: a central cloud hub, named architecture-domain panels, connected topic tiles, and a consistent reference footer. It covers **13 architecture domains and 115 learning topics**.
-
-**SVG mind map preview — scalable vector artwork**
-
-<p align="center">
-  <a href="OCI-COMPONENT-MINDMAP.svg">
-    <img src="OCI-COMPONENT-MINDMAP.svg" alt="OCI component mind map — 13 architecture domains and 115 learning topics" width="100%" />
-  </a>
-</p>
-
-The SVG above is the actual editable-quality vector preview, not a PNG thumbnail. Open the file directly from the link below to view or download the full SVG.
-
-- [Open the 4K PNG mind map](OCI-COMPONENT-MINDMAP.png)
-- [**OPEN OCI MIND MAP — SVG**](OCI-COMPONENT-MINDMAP.svg)
-- [Edit the mind map in diagrams.net](OCI-COMPONENT-MINDMAP.drawio)
-
-
-[![Interactive OCI learning tracker](https://img.shields.io/badge/OCI%20learning-tracker-Launch%20interactive%20catalogue-C74634?style=for-the-badge)](https://tripathies.github.io/OCI-Master-Vault/)
-[![Reference architecture](https://img.shields.io/badge/Reference%20architecture-open%20design-8F2117?style=for-the-badge)](OCI-ENTERPRISE-REFERENCE-ARCHITECTURE.md)
-[![Visual library](https://img.shields.io/badge/Diagrams-SVG%20%7C%20draw.io-7F56D9?style=for-the-badge)](VISUAL-DIAGRAMS.md)
-
-## Start here
+# Cloud Architecture Playbook
 
 ![OCI Architecture Playbook — enterprise reference architecture](assets/oci-architecture-playbook-cover.svg)
 
+> **OCI Edition** — From Cloud Fundamentals to Enterprise-Grade Architecture. An open-source Solution Architect learning portal with service guides, reference architecture, diagrams and hands-on implementation projects.
 
-| 📚 Learning tracker | 🏗️ End-to-end design | 🗺️ Diagram library |
+[![Integrated learning catalogue](https://img.shields.io/badge/Learning%20catalogue-progress%20included-C74634?style=for-the-badge)](https://tripathies.github.io/OCI-Master-Vault/)
+[![Reference architecture](https://img.shields.io/badge/Reference%20architecture-open%20design-8F2117?style=for-the-badge)](OCI-ENTERPRISE-REFERENCE-ARCHITECTURE.md)
+[![Visual library](https://img.shields.io/badge/Diagrams-SVG%20%7C%20draw.io-7F56D9?style=for-the-badge)](VISUAL-DIAGRAMS.md)
+
+## OCI component catalogue mind map
+
+The master visual index is available as a **self-contained SVG** and an **editable diagrams.net source**. It uses named OCI architecture domains and full service names instead of alphabet-only markers.
+
+<p align="center">
+  <a href="OCI-COMPONENT-MINDMAP.svg">
+    <img src="OCI-COMPONENT-MINDMAP.svg" alt="OCI Cloud Mindmap — all 13 named OCI catalogue domains and 115 topics" width="100%" />
+  </a>
+</p>
+
+- [Open the OCI component mind map (SVG)](OCI-COMPONENT-MINDMAP.svg)
+- [Open the 4K PNG mind map](OCI-COMPONENT-MINDMAP.png)
+- [Edit the mind map in diagrams.net (draw.io)](OCI-COMPONENT-MINDMAP.drawio)
+
+| <div align="center">📚 Learning catalogue</div> | <div align="center">🏗️ End-to-end design</div> | <div align="center">🗺️ Diagram library</div> |
 |---|---|---|
-| Work through the catalogue by category. Every topic opens its own guide. | Explore tenancy, compartments, IAM, networking, workloads, data, security and operations. | Preview SVGs and open editable draw.io sources. |
-| [Track topics below ↓](#your-oci-learning-tracker) | [Open reference design](OCI-ENTERPRISE-REFERENCE-ARCHITECTURE.md) | [Open visual library](VISUAL-DIAGRAMS.md) |
+| One learning page with the progress board above all 13 catalogues. Every topic opens its detailed guide. | Explore tenancy, compartments, IAM, networking, workloads, data, security and operations. | Preview architecture diagrams and open editable draw.io sources. |
+| [**Open learning catalogue →**](https://tripathies.github.io/OCI-Master-Vault/) | [**Open reference design →**](OCI-ENTERPRISE-REFERENCE-ARCHITECTURE.md) | [**Open visual library →**](VISUAL-DIAGRAMS.md) |
 
 ![OCI Master Vault architecture overview](architecture.svg)
 
-## Catalogue overview
 
-**Catalogue size:** 115 OCI component and architecture-topic guides across 13 categories.
+## OCI component catalogue
 
-| Domain | Category | Topics | Tracker |
-|---|---|---:|---|
-| **A** | [Cloud Foundation & Landing Zones](A-cloud-foundation-landing-zones/README.md) | 9 | [Open tracker](#a-cloud-foundation-landing-zones) |
-| **B** | [Identity & Access Management](B-identity-access-management/README.md) | 8 | [Open tracker](#b-identity-access-management) |
-| **C** | [Networking & Private Connectivity](C-networking-private-connectivity/README.md) | 12 | [Open tracker](#c-networking-private-connectivity) |
-| **D** | [Traffic Management & Delivery](D-traffic-management-delivery/README.md) | 8 | [Open tracker](#d-traffic-management-delivery) |
-| **E** | [Compute & Application Hosting](E-compute-application-hosting/README.md) | 9 | [Open tracker](#e-compute-application-hosting) |
-| **F** | [Containers & Kubernetes](F-containers-kubernetes/README.md) | 7 | [Open tracker](#f-containers-kubernetes) |
-| **G** | [Storage & Enterprise File Services](G-storage-enterprise-file-services/README.md) | 8 | [Open tracker](#g-storage-enterprise-file-services) |
-| **H** | [Databases & Data Platforms](H-databases-data-platforms/README.md) | 10 | [Open tracker](#h-databases-data-platforms) |
-| **I** | [Integration & API Management](I-integration-api-management/README.md) | 8 | [Open tracker](#i-integration-api-management) |
-| **J** | [Security, Secrets & Governance](J-security-secrets-governance/README.md) | 8 | [Open tracker](#j-security-secrets-governance) |
-| **K** | [Monitoring, Operations & Cost](K-monitoring-operations-cost/README.md) | 10 | [Open tracker](#k-monitoring-operations-cost) |
-| **L** | [DevOps, Resilience, Migration & AI](L-devops-resilience-migration-ai/README.md) | 10 | [Open tracker](#l-devops-resilience-migration-ai) |
-| **12** | [Automation, Backup & Disaster Recovery](12-automation-backup-disaster-recovery/README.md) | 8 | [Open tracker](#12-automation-backup-disaster-recovery) |
+The 13 expandable catalogues below provide the complete topic checklist directly in this repository. Expand a category and select any topic to open its detailed guide. To record completion and monitor overall progress and catalogue milestones, use the [interactive learning dashboard](https://tripathies.github.io/OCI-Master-Vault/). The dashboard contains these same 13 catalogues and all 115 guides.
 
-## Your OCI learning tracker
-
-The interactive learning catalogue brings the progress board and all 115 topic checkboxes together on one page. Check a topic to update the overall progress bar and its domain milestone immediately.
-
-[![OPEN INTERACTIVE OCI LEARNING CATALOGUE](https://img.shields.io/badge/OPEN%20INTERACTIVE%20OCI%20LEARNING%20CATALOGUE-View%20progress%20and%20115%20topics-C74634?style=for-the-badge)](https://tripathies.github.io/OCI-Master-Vault/)
-
-Progress is saved in the current browser on this device. Export a JSON backup to transfer progress to another browser or device. The expandable catalogue lists below remain the static reference and preserve every detailed guide link.
-
-### Component checklist
-
-
-Use checkboxes as a visible checklist and select a topic to open its detailed guide. GitHub Markdown checkboxes are manual; they do not calculate a live completion percentage.
-
-### Component checklist
+**Learning loop:** understand the purpose and trade-offs → inspect the diagram → complete a lab → validate the result → clean up resources → explain the design.
 
 <details>
 <summary><strong>A. Cloud Foundation & Landing Zones</strong> — 9 topics</summary>
