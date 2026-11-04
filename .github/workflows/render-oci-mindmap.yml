@@ -18,7 +18,7 @@ jobs:
       - name: Install SVG renderer
         run: sudo apt-get update && sudo apt-get install -y librsvg2-bin
       - name: Render 4K PNG
-        run: rsvg-convert -w 3840 -h 3840 OCI-COMPONENT-MINDMAP.svg -o OCI-COMPONENT-MINDMAP.png
+        run: rsvg-convert -w 3840 OCI-COMPONENT-MINDMAP.svg -o OCI-COMPONENT-MINDMAP.png
       - name: Commit rendered PNG
         run: |
           git config user.name "github-actions[bot]"
