@@ -1,0 +1,30 @@
+name: Render OCI mind map PNG
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'OCI-COMPONENT-MINDMAP.svg'
+      - '.github/workflows/render-oci-mindmap.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install SVG renderer
+        run: sudo apt-get update && sudo apt-get install -y librsvg2-bin
+      - name: Render 4K PNG
+        run: rsvg-convert -w 3840 -h 3840 OCI-COMPONENT-MINDMAP.svg -o OCI-COMPONENT-MINDMAP.png
+      - name: Commit rendered PNG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add OCI-COMPONENT-MINDMAP.png
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Render OCI mind map 4K PNG"
+          git pull --rebase origin main
+          git push
