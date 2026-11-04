@@ -5,14 +5,18 @@
 
 The OCI Master Vault mind map follows the same visual structure as the AWS and GCP vaults: a central cloud hub, named architecture-domain panels, connected topic tiles, and a consistent reference footer. It covers **13 architecture domains and 115 learning topics**.
 
+**SVG mind map preview — scalable vector artwork**
+
 <p align="center">
   <a href="OCI-COMPONENT-MINDMAP.svg">
-    <img src="OCI-COMPONENT-MINDMAP.png" alt="OCI component mind map — 13 architecture domains and 115 learning topics" width="100%" />
+    <img src="OCI-COMPONENT-MINDMAP.svg" alt="OCI component mind map — 13 architecture domains and 115 learning topics" width="100%" />
   </a>
 </p>
 
+The SVG above is the actual editable-quality vector preview, not a PNG thumbnail. Open the file directly from the link below to view or download the full SVG.
+
 - [Open the 4K PNG mind map](OCI-COMPONENT-MINDMAP.png)
-- [Open the scalable SVG mind map](OCI-COMPONENT-MINDMAP.svg)
+- [**OPEN OCI MIND MAP — SVG**](OCI-COMPONENT-MINDMAP.svg)
 - [Edit the mind map in diagrams.net](OCI-COMPONENT-MINDMAP.drawio)
 
 
